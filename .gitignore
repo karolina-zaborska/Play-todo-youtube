@@ -1,5 +1,4 @@
 .idea/
-target
 shared
 sql
 scalajs-only
