@@ -1,0 +1,17 @@
+@* tasklist1 Template File *@
+@* comments:
+- taskList isn't just type Any, it will be a Sequence of Strings
+- the @ symbol is the one special symbol inside the twirl templates that says this is not a normal text
+, it means that you are calling code*@
+@(tasks:Seq[String])
+
+@main("Task List") {
+  <h2> Task List</h2>
+<!-- now actually the view will display the hardcoded values, the tasks that were mentioned in Task1 class-->
+  <ul>
+    @for(task <- tasks) {
+     <li>@task</li>
+    }
+  </ul>
+}
+
