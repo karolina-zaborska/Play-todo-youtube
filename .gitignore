@@ -1,3 +1,7 @@
 .idea/
 target
 README.md
+shared
+sql
+scalajs-only
+data
