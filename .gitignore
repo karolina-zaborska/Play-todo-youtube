@@ -6,6 +6,6 @@ data
 server
 .DS_Store
 client/target/
-	project/project/
-	project/target/
-	target/
+project/project/
+project/target/
+target/
